@@ -1,0 +1,32 @@
+HomeScreen As screen:
+    Fill: =RGBA(204, 231, 246, 1)
+
+    Label1 As label:
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =36
+        Text: ="Class Tracker"
+        Width: =560
+        X: =40
+        Y: =120
+        ZIndex: =1
+
+    Label2 As label:
+        Height: =45
+        Size: =21
+        Text: ="An app for tracking classes"
+        Width: =560
+        X: =40
+        Y: =190
+        ZIndex: =2
+
+    Button1 As button:
+        Height: =79
+        OnSelect: =Navigate(ClassListScreen)
+        Size: =24
+        Text: ="Classes"
+        Width: =298
+        X: =174
+        Y: =584
+        ZIndex: =3
+
